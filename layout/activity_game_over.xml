@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".gameOverActivity">
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gameOver"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/playAgainbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/playagain"
+        android:layout_below="@+id/gameOver"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/red"
+        android:background="@color/green"
+        />
+
+</RelativeLayout>
